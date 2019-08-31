@@ -97,8 +97,8 @@ public class A1Adept {
 	    double average = allCustomersTotal / (double)numCustomers;
 		
 	    //print the output
-		System.out.println("Biggest: " + biggestName + "(" + String.format("%.2f", biggestTotal) + ")");
-		System.out.println("Smallest: " + smallestName + "(" + String.format("%.2f", smallestTotal) + ")");
+		System.out.println("Biggest: " + biggestName + " (" + String.format("%.2f", biggestTotal) + ")");
+		System.out.println("Smallest: " + smallestName + " (" + String.format("%.2f", smallestTotal) + ")");
 		System.out.println("Average: " + String.format("%.2f", average));
 	}
 }
